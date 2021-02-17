@@ -1,0 +1,9 @@
+.nav{
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+.nav-logo{
+    height: 36px;
+}

@@ -1,0 +1,116 @@
+
+.card-service{
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.card-img{
+    width: 150px; 
+height: 150px; 
+object-fit: cover; 
+}
+#service-head {
+  padding-bottom: 260px;
+  padding-top: 90px;
+}
+
+#service-head .section-title {
+  color: #fff;
+}
+
+.text-white p {
+  color: #fff;
+}
+
+#service {
+  margin-top: -100px;
+  padding-bottom: 70px;
+}
+
+.service-box .service-img-icon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: #fff;
+  padding-top: 20px;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  background: #635CDB;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.service-box {
+  margin-bottom: 40px;
+  background: #fff;
+  text-align: center;
+  padding: 45px 25px 30px 25px;
+  border: 1px solid transparent;
+  transition: all .3s ease 0s;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-inner {
+  margin-top: 30px;
+}
+
+.service-inner h4 {
+  margin-bottom: 20px;
+}
+
+.service-inner span {
+  color: #635CDB;
+}
+
+/* ================================
+SERVICE PAGE
+==============================*/
+.bg-gray {
+  background: #1F2D3B;
+}
+
+.service-block-2 {
+  position: relative;
+}
+
+.service-block-2 h4 {
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+.service-block-2 p {
+  font-size: 16px;
+}
+
+.service-block-2 span {
+  position: absolute;
+  content: "";
+  font-size: 70px;
+  top: 0px;
+  left: 0px;
+  font-weight: 800;
+  opacity: .05;
+  margin-top: -15px;
+}
+
+.service-style-two {
+  background: url("../img/nysos-clip.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.service-style-two:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.heading {
+  margin-top: 100px;
+}
