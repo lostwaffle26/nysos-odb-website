@@ -18,8 +18,8 @@ function Project() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-sm-12 m-auto">
                             <div className="heading text-white text-center">
-                                <h4 className="section-title text-white">Projets</h4>
-                                <p>Voici les différents projets que nous avons réalisé au fil des années passées.</p>
+                                <h4 className="section-title text-white title">projets</h4>
+                                <p>Quelques projets que j'ai réalisé.</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ function Project() {
                                     </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
-                                            <h5 className="card-title">Projet</h5>
+                                            <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
                                             <a href="#" className="btn btn-hero btn-circled btn-warning" onClick={handleShow} >En savoir plus</a>
                                         </div>
@@ -52,7 +52,7 @@ function Project() {
                                         <img src={soon} className="card-img" alt="coming soon" />                                    </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
-                                            <h5 className="card-title">Projet</h5>
+                                            <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
                                             <a href="#" className="btn btn-hero btn-circled  btn-warning" onClick={handleShow}>En savoir plus</a>
                                         </div>
@@ -66,7 +66,7 @@ function Project() {
                                         <img src={soon} className="card-img" alt="coming soon" />                                    </div>
                                     <div className="col-md-8">
                                         <div className="card-body">
-                                            <h5 className="card-title">Projet</h5>
+                                            <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
                                             <a href="#" className="btn btn-hero btn-circled btn-warning" onClick={handleShow}>En savoir plus</a>
                                         </div>

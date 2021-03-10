@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  *:focus {
+    outline: 0;
+  }
+  
+  html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+      overflow: hidden;
+      background-color: black;
+  }
+  
+  section {
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      background-color: #0a0a0a;
+  }
+  
+  section .bg {
+      bottom: -50px;
+      left: -50px;
+      position: absolute;
+      right: -50px;
+      top: -50px;
+  }
+  
+  section .bg img {
+    height: 52vh;
+    width: 160vh;
+      left: 0;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+     display: flex;
+  }
+  
+  section img {
+      max-width: 100%;
+      position: absolute;
+  }
+  
+  section img.girl {
+      height: 120vh;
+      margin-left: 30vh;
+  }
+

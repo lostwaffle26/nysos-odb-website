@@ -1,0 +1,10 @@
+body {
+    background: #dedede;
+}
+.page-wrap {
+    min-height: 100vh;
+}
+
+.bg-black{
+    background-color: black;
+}

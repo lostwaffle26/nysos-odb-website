@@ -1,9 +1,21 @@
+@font-face {
+    font-family: "Ammonite";
+    src: url("../police/Ammonite.otf");
+   }
+
 .nav{
     background-color: black;
     align-items: center;
     color: white;
+    font-family: Ammonite;
+    letter-spacing: 3px;
 }
+
 
 .nav-logo{
     height: 36px;
 }
+
+.active, .btn:hover {
+    color: gray;
+  }

@@ -1,11 +1,25 @@
 import React from 'react';
 import '../style/navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../img/logo.png';
+import logo from '../img/typo.png';
 
 
 function Navbar() {
 
+    var lists = document.getElementsByClassName('li');
+    for (var i = 0; i < lists.length; i++) {
+        lists[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+      
+          if (current.length > 0) {
+            current[0].className = current[0].className.replace(" active", "");
+          }
+      
+   
+          this.className += " active";
+        });
+    }
+    
     return (
         <div>
             <nav className="navbar navbar-expand-lg nav navbar-dark fixed-top">
@@ -14,19 +28,19 @@ function Navbar() {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse container" id="navbarNav">
-                        <ul className="navbar-nav">
+                    <div className="collapse navbar-collapse container">
+                        <ul className="navbar-nav" id="navbarHead">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Accueil</a>
+                                <a className="nav-link" aria-current="page" href="/">accueil</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Projets</a>
+                                <a id="project" className="nav-link" href="/Project">projets</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">A propos</a>
+                                <a id="about" className="nav-link" href="#">a propos</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a id="contact" className="nav-link" href="#">contact</a>
                             </li>
                         </ul>
                         
