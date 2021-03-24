@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/pages/Home'
 import Project from './components/pages/Project';
 import NotFoundPage from './components/NotFoundPage';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -23,6 +24,14 @@ function App() {
             <div>
               <Navbar />
               <Project />
+
+            </div>
+          } />
+
+          <Route path="/contact" exact component={props =>
+            <div>
+              <Navbar />
+              <Contact />
 
             </div>
           } />

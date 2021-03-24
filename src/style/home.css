@@ -39,7 +39,7 @@
   
   section .bg img {
     height: 52vh;
-    width: 160vh;
+    width: 230vh;
       left: 0;
       object-fit: cover;
       position: absolute;
