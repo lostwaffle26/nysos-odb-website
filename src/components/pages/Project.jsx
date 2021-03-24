@@ -13,7 +13,7 @@ function Project() {
 
     return (
         <div>
-            <section id="service-head" className="service-style-two">
+            <section id="service-head" className="service-style-two project-section">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-sm-12 m-auto">
@@ -40,7 +40,7 @@ function Project() {
                                         <div className="card-body">
                                             <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
-                                            <a href="#" className="btn btn-hero btn-circled btn-warning" onClick={handleShow} >En savoir plus</a>
+                                            <a className="btn btn-hero btn-circled btn-warning" onClick={handleShow} >En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ function Project() {
                                         <div className="card-body">
                                             <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
-                                            <a href="#" className="btn btn-hero btn-circled  btn-warning" onClick={handleShow}>En savoir plus</a>
+                                            <a className="btn btn-hero btn-circled  btn-warning" onClick={handleShow}>En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ function Project() {
                                         <div className="card-body">
                                             <h5 className="card-title">projet</h5>
                                             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
-                                            <a href="#" className="btn btn-hero btn-circled btn-warning" onClick={handleShow}>En savoir plus</a>
+                                            <a className="btn btn-hero btn-circled btn-warning" onClick={handleShow}>En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ function Project() {
                      Sed aliquet mattis nulla non accumsan. Donec iaculis, eros eu ultrices faucibus, nisi lectus vestibulum orci, quis feugiat nulla quam ut urna. Nulla eleifend metus sit amet tellus euismod pretium. Nunc semper,
                      arcu id laoreet congue, sapien odio suscipit massa, in bibendum nunc justo id nulla. Etiam eu felis sed ipsum ornare vehicula. Nulla ligula ipsum, scelerisque sit amet mauris ut, imperdiet dignissim nisi.</Modal.Body>
                 <Modal.Footer>
-                    <a href="#" className="btn btn-hero btn-circled btn-danger" onClick={handleClose}>Fermer</a>
+                    <a className="btn btn-hero btn-circled btn-danger" onClick={handleClose}>Fermer</a>
                 </Modal.Footer>
             </Modal>
 

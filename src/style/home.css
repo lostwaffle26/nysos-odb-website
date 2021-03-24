@@ -13,14 +13,18 @@
   }
   
   body {
-      overflow: hidden;
+
       background-color: black;
   }
   
-  section {
+  .home-section {
       height: 100vh;
       overflow: hidden;
-      position: relative;
+      
+  }
+
+  section{
+    position: relative;
       width: 100%;
       background-color: #0a0a0a;
   }

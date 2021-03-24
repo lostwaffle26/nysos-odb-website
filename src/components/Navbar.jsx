@@ -24,7 +24,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg nav navbar-dark fixed-top">
                 <div className="container">
-                    <img src={logo} className="nav-logo"/>
+                    <img src={logo} className="nav-logo" href="/" alt="logo"/>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -37,10 +37,10 @@ function Navbar() {
                                 <a id="project" className="nav-link" href="/Project">projets</a>
                             </li>
                             <li className="nav-item">
-                                <a id="about" className="nav-link" href="#">a propos</a>
+                                <a id="about" className="nav-link" href="/">a propos</a>
                             </li>
                             <li className="nav-item">
-                                <a id="contact" className="nav-link" href="#">contact</a>
+                                <a id="contact" className="nav-link" href="/">contact</a>
                             </li>
                         </ul>
                         

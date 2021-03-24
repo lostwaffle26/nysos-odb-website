@@ -19,7 +19,7 @@ function Home() {
     }
     return (
         <div className="homepage">
-            <section className="home">
+            <section className="home home-section">
                 <div className="bg">
                     <img src={background} className="layer background" alt="Background" data-speed="-2" />
 	            </div>
