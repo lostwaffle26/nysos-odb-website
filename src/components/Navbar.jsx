@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/navbar.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../img/typo.png';
 
 
@@ -37,7 +36,7 @@ function Navbar() {
                                 <a id="project" className="nav-link" href="/Project">projets</a>
                             </li>
                             <li className="nav-item">
-                                <a id="about" className="nav-link" href="/">a propos</a>
+                                <a id="about" className="nav-link" href="/About">a propos</a>
                             </li>
                             <li className="nav-item">
                                 <a id="contact" className="nav-link" href="/Contact">contact</a>

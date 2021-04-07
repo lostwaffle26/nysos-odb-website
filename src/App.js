@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import Project from './components/pages/Project';
 import NotFoundPage from './components/NotFoundPage';
 import Contact from './components/pages/Contact';
+import About from './components/pages/About';
 
 
 function App() {
@@ -32,6 +33,13 @@ function App() {
             <div>
               <Navbar />
               <Contact />
+
+            </div>
+          } />
+          <Route path="/about" exact component={props =>
+            <div>
+              <Navbar />
+              <About />
 
             </div>
           } />

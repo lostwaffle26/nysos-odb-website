@@ -13,8 +13,8 @@ function Contact() {
                         <div class="row">
                             <div class="col-lg-6 col-sm-12 col-md-12">
                                 <div class="mb-5">
-                                    <h2 class="mb-2">Me contacter</h2>
-                                    <p>Bla bla bla bla ?<br />Bla bla bla bla bla !</p>
+                                    <h2 class="mb-2">me contacter</h2>
+                                    <p>Vous pouvez me contacter via ce formulaire</p>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ function Contact() {
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="alert alert-success contact__msg message-sent" role="alert">
-                                                Your message was sent successfully.
+                                                Votre message à été envoyé.
                                     </div>
                                         </div>
                                     </div>
@@ -51,11 +51,11 @@ function Contact() {
                             </div>
 
                             <div class="col-lg-5 pl-4 mt-4 mt-lg-0">
-                                <h4>Adresse postale</h4>
+                                <h4>adresse postale</h4>
                                 <p class="mb-3">2 Rue Le Corbustier, 13100 Aix-En-Porvence</p>
-                                <h4>E-mail</h4>
+                                <h4>e-mail</h4>
                                 <p class="mb-3">nysos-odb@gmail.com</p>
-                                <h4>Site interet</h4>
+                                <h4>site interet</h4>
                                 <p>www.nysos-odb.com</p>
                             </div>
                         </div>

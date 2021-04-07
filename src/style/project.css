@@ -2,6 +2,15 @@
   font-family: "Ammonite";
   src: url("../police/Ammonite.otf");
  }
+ @font-face {
+  font-family: "Roboto";
+  src: url("../police/Roboto-Regular.ttf");
+ }
+
+ ::-webkit-scrollbar {
+  width:0px;
+}
+
 
 .card-service{
   max-width: 650px;
@@ -27,6 +36,10 @@ object-fit: cover;
 
 .text-white p {
   color: #fff;
+}
+
+p{
+  font-family: Roboto;
 }
 
 #service {

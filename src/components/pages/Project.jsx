@@ -58,7 +58,7 @@ function Project() {
                                             <div className="card-body">
                                                 <h5 className="card-title">projet</h5>
                                                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut enim diam.</p>
-                                                <a className="btn btn-hero btn-circled  btn-warning" onClick={handleShow}>En savoir plus</a>
+                                                <a className="btn btn-hero btn-circled btn-warning" onClick={handleShow}>En savoir plus</a>
                                             </div>
                                         </div>
                                     </div>
